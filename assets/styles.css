@@ -1,0 +1,159 @@
+/*Login, no tocar*/
+body {
+    font-family: Calibri, sans-serif;
+    background-color: #82B0A4;
+    margin: 0;
+    padding: 0;
+}
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #82B08D;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    display: block;
+    margin-bottom: 7px;
+    color: black;
+}
+button {
+    box-shadow: 0 0 5px cyan,
+  0 0 25px cyan;
+}
+button:hover {
+  box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200cyan;
+}
+
+
+/*container general, cuadrado blanco*/
+.container {
+  background-color: white;
+  width: 80%;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+.header-milan {
+	height: 300px;
+	
+	background-image:
+	linear-gradient(
+	to right,
+	rgb(0 0 0 / 0.8), rgb(0 0 0 / 0)
+), url("img/pilares.png");
+	
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/*dentro de los containers el parrafo*/
+.container p {
+  color: black;
+  font-size: 18px;
+}
+.contenido {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.contenido img {
+  width: 50%;
+}
+
+.contenido div {
+  flex: 1;
+}
+.contenido p {
+  columns:auto 20rem;
+}
+
+/*para las referencias*/
+.footer {
+  background-color: #263238;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer a {
+  color: #9be7ff;
+}
+
+
+/*Alemania*/
+.header-Berlin {
+	height: 300px;
+	
+	background-image:
+	linear-gradient(
+	to right,
+	rgb(0 0 0 / 0.8), rgb(0 0 0 / 0)
+), url("img/Spandau.jpg");
+	
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/*Venecia*/
+.header-Venecia {
+	height: 300px;
+	
+	background-image:
+	linear-gradient(
+	to right,
+	rgb(0 0 0 / 0.8), rgb(0 0 0 / 0)
+), url("img/editado_venecia.jpg");
+	
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/*al fin el Dashboard*/
+.Dashboard {
+	 background-color: pink;
+	text-align: center;
+	  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header {
+	height: 300px;
+	
+	background-image:
+	linear-gradient(
+	to right,
+	rgb(0 0 0 / 0.8), rgb(0 0 0 / 0)
+	), url("img/dash.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
